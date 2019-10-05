@@ -3,6 +3,7 @@ import asyncio
 import discord
 import openpyxl
 import datetime
+import os
 
 from discord import Embed
 from openpyxl.comments import author
@@ -96,5 +97,5 @@ async def on_message(message):
 
 
 
-
+access_token = os.environ["BOT_TOKEN"]
 client.run('NjI5NjQ5NTAxNzQ0OTIyNjQ3.XZc05w.2Qv3wVZI3G1DVudRejZs99H0tFU')
