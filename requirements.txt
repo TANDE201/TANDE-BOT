@@ -2,5 +2,3 @@ discord.py==1.0.1
 asyncio.py==3.4.3
 openpyxl.py==3.0.0
 datetime.py==4.3
-pathlib.py==1.0.1
-importlib.util.py==1.0.4
